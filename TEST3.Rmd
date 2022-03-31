@@ -14,6 +14,3 @@ library(gapminder)
 ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp)) +
   geom_point(aes(size = pop, col = continent), alpha = 0.3) 
 ```
-
-# new 
-
